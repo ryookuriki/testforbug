@@ -19,6 +19,7 @@ view: orders {
   # This dimension will be called "Campaign" in Explore.
 
   dimension: campaign {
+    label: "campaign"
     type: string
     sql: ${TABLE}.campaign ;;
   }
